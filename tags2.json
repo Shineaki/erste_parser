@@ -1,0 +1,242 @@
+{
+    "partner_to_tag": {
+        "SHELL TO:LTO A'LL. 445": "Tankolás",
+        "Wolt": "Wolt Rendelés",
+        "Thai Masszazs Szalo": "Masszázs",
+        "Major": "Kávézás",
+        "MONTREAL CAFEE": "Kávézás",
+        "Hitelezéssel kapcsolatos terhelés": "Hitel",
+        "NN RAS KFT": "Fizetés",
+        "Díj / Ügyfélkapcsolati díj": "Banki Illeték",
+        "Díj / Terhelési tranzakciók után": "Banki Illeték",
+        "NEMZETI DOHA'NYBOLT": "Dohanybolt",
+        "Koszikla Gyogyszert": "Gyogyszertar",
+        "Nemzeti Dohánybolt": "Dohanybolt",
+        "3500 BUDAO:RS TESCO": "Fressnapf",
+        "Revolut**6428*": "Revolutra Utalás",
+        "STEAM PURCHASE": "Játék",
+        "Google CLOUD TDFxL3": "Cloud Költségek",
+        "NATURA GYO'GYSZERTA'R": "Gyogyszertar",
+        "Juhasz Allatkorhaz": "Allatkorhaz",
+        "Kamat": "Banki Illeték",
+        "Kamatot terhelő adók": "Banki Illeték",
+        "TU:SKE DOHA'NYBOLT": "Dohanybolt",
+        "MM BUDAO:RS": "Media Markt",
+        "ZA'CHA DOHA'NY": "Dohanybolt",
+        "SIMPLE PARKOL?S": "Parkolás",
+        "GLS D112 DEPO'": "GLS",
+        "HALMOS ÁDÁM": "Megtakarítási Számla",
+        "LiTi Cafe": "Kávézás",
+        "HELOPAY*ELESZTO BAR": "Ivás",
+        "TESCO 41520 O:NKISZOLG": "Tesco",
+        "Butchers Kitchen": "Evés",
+        "OTPMOBL*dijnet": "Számla",
+        "STEAMGAMES.COM 4259522": "Játék",
+        "Tesco HU Online": "Tesco",
+        "Union biztosito": "Biztosítás",
+        "FU:GE BOLT E'S KA'VE'Z": "Kávézás",
+        "Nagy Dominika": "Mamóca",
+        "MAMMUT BEV.KP.PARK.AUT": "Parkolás",
+        "CBA PRI'MA A'RUHA'Z BU": "CBA",
+        "BTG Nonprofit Kft.": "Szemét",
+        "Csiri": "Evés",
+        "Google CLOUD Dw77TW": "Cloud Költségek",
+        "ABRONCS FEHE'RVA'RI": "Kocsi",
+        "IKEA BUDAORS UGYFE": "IKEA",
+        "IKEA BUDAORS ETTEREM": "IKEA",
+        "Padla Nikolett": "Takarítás - Niki",
+        "MCD BUDAO:RS-AGIP": "Mc Donalds",
+        "BLIZZARD *EU282382032": "Játék",
+        "LIDL HU 349 Budaors": "LIDL",
+        "MOL 63300": "Tankolás",
+        "LIGHT ROAST COFFEE": "Kávézás",
+        "Szertar Kavezo": "Kávézás",
+        "Manna ABC - Mazsa Vaci": "Vásárlás",
+        "Primavet Állatklinika": "Allatkorhaz",
+        "OTPMOBL*DPD Depo 1639": "DPD",
+        "A Grund - Grund 8 Kft": "Ivás",
+        "A GRUND": "Ivás",
+        "BOLT.EU/O/2411081703": "Taxi",
+        "BOLT.EU/O/2411082258": "Taxi",
+        "IKEA HU ecom": "IKEA",
+        "ITCH.IO - GAME STORE": "Játék",
+        "TELEKOMSZAML*768646588": "Mobilszámla",
+        "Google CLOUD x93XK3": "Cloud Költségek",
+        "MVM NEXT ENERGIAK": "Áram Számla",
+        "L33 Medical Szolgaltat": "Orvosi vizsgálatok",
+        "SHELL TO:LTO A'LL. 136": "Tankolás",
+        "ROSSMANN 260": "Rossman",
+        "DECATHLON BUDAO:RS": "Dectahlon",
+        "TELEKOMSZAML*762659571": "Mobilszámla",
+        "CLOUD VPxDHH": "Cloud Költségek",
+        "UDEMY: ONLINE COURSES": "Udemy",
+        "DM 350 SZ.": "DM",
+        "NYX*ReferenciaCafeKft": "Kávézás",
+        "OTPMOBL*webkincstar": "Webkincstár",
+        "ATORDAI FOOD KFT./2": "Evés",
+        "Redei Gabor e.v.": "Nem tudom"
+    },
+    "tags_to_partners": {
+        "Tankolás": [
+            "SHELL TO:LTO A'LL. 445",
+            "MOL 63300",
+            "SHELL TO:LTO A'LL. 136"
+        ],
+        "Wolt Rendelés": [
+            "Wolt"
+        ],
+        "Masszázs": [
+            "Thai Masszazs Szalo"
+        ],
+        "Kávézás": [
+            "Major",
+            "MONTREAL CAFEE",
+            "LiTi Cafe",
+            "FU:GE BOLT E'S KA'VE'Z",
+            "LIGHT ROAST COFFEE",
+            "Szertar Kavezo",
+            "NYX*ReferenciaCafeKft"
+        ],
+        "Hitel": [
+            "Hitelezéssel kapcsolatos terhelés"
+        ],
+        "Fizetés": [
+            "NN RAS KFT"
+        ],
+        "Banki Illeték": [
+            "Díj / Ügyfélkapcsolati díj",
+            "Díj / Terhelési tranzakciók után",
+            "Kamat",
+            "Kamatot terhelő adók"
+        ],
+        "Dohanybolt": [
+            "NEMZETI DOHA'NYBOLT",
+            "Nemzeti Dohánybolt",
+            "TU:SKE DOHA'NYBOLT",
+            "ZA'CHA DOHA'NY"
+        ],
+        "Gyogyszertar": [
+            "Koszikla Gyogyszert",
+            "NATURA GYO'GYSZERTA'R"
+        ],
+        "Fressnapf": [
+            "3500 BUDAO:RS TESCO"
+        ],
+        "Tesco": [
+            "TESCO 41520 O:NKISZOLG",
+            "Tesco HU Online"
+        ],
+        "Revolutra Utalás": [
+            "Revolut**6428*"
+        ],
+        "Játék": [
+            "STEAM PURCHASE",
+            "STEAMGAMES.COM 4259522",
+            "BLIZZARD *EU282382032",
+            "ITCH.IO - GAME STORE"
+        ],
+        "Cloud Költségek": [
+            "Google CLOUD TDFxL3",
+            "Google CLOUD Dw77TW",
+            "Google CLOUD x93XK3",
+            "CLOUD VPxDHH"
+        ],
+        "Allatkorhaz": [
+            "Juhasz Allatkorhaz",
+            "Primavet Állatklinika"
+        ],
+        "Media Markt": [
+            "MM BUDAO:RS"
+        ],
+        "Parkolás": [
+            "SIMPLE PARKOL?S",
+            "MAMMUT BEV.KP.PARK.AUT"
+        ],
+        "GLS": [
+            "GLS D112 DEPO'"
+        ],
+        "Megtakarítási Számla": [
+            "HALMOS ÁDÁM"
+        ],
+        "Ivás": [
+            "HELOPAY*ELESZTO BAR",
+            "A Grund - Grund 8 Kft",
+            "A GRUND"
+        ],
+        "Evés": [
+            "Butchers Kitchen",
+            "Csiri",
+            "ATORDAI FOOD KFT./2"
+        ],
+        "Számla": [
+            "OTPMOBL*dijnet"
+        ],
+        "Biztosítás": [
+            "Union biztosito"
+        ],
+        "Mamóca": [
+            "Nagy Dominika"
+        ],
+        "CBA": [
+            "CBA PRI'MA A'RUHA'Z BU"
+        ],
+        "Szemét": [
+            "BTG Nonprofit Kft."
+        ],
+        "Kocsi": [
+            "ABRONCS FEHE'RVA'RI"
+        ],
+        "IKEA": [
+            "IKEA BUDAORS UGYFE",
+            "IKEA BUDAORS ETTEREM",
+            "IKEA HU ecom"
+        ],
+        "Takarítás - Niki": [
+            "Padla Nikolett"
+        ],
+        "Mc Donalds": [
+            "MCD BUDAO:RS-AGIP"
+        ],
+        "LIDL": [
+            "LIDL HU 349 Budaors"
+        ],
+        "Vásárlás": [
+            "Manna ABC - Mazsa Vaci"
+        ],
+        "DPD": [
+            "OTPMOBL*DPD Depo 1639"
+        ],
+        "Taxi": [
+            "BOLT.EU/O/2411081703",
+            "BOLT.EU/O/2411082258"
+        ],
+        "Mobilszámla": [
+            "TELEKOMSZAML*768646588",
+            "TELEKOMSZAML*762659571"
+        ],
+        "Áram Számla": [
+            "MVM NEXT ENERGIAK"
+        ],
+        "Orvosi vizsgálatok": [
+            "L33 Medical Szolgaltat"
+        ],
+        "Rossman": [
+            "ROSSMANN 260"
+        ],
+        "Dectahlon": [
+            "DECATHLON BUDAO:RS"
+        ],
+        "Udemy": [
+            "UDEMY: ONLINE COURSES"
+        ],
+        "DM": [
+            "DM 350 SZ."
+        ],
+        "Webkincstár": [
+            "OTPMOBL*webkincstar"
+        ],
+        "Nem tudom": [
+            "Redei Gabor e.v."
+        ]
+    }
+}
