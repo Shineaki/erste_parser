@@ -1,4 +1,5 @@
 import json
+from datetime import datetime
 from typing import Union
 
 from fastapi import FastAPI
@@ -23,8 +24,8 @@ app.add_middleware(
 
 
 class TransactionEntry(BaseModel):
-    booking_date: str
-    transaction_date: str
+    booking_date: datetime
+    transaction_date: datetime
     partner_name: str
     value: int
     balance: int
@@ -62,8 +63,8 @@ class Money:
         parsed_data = []
         for entry in data:
             te = TransactionEntry(
-                booking_date=entry.get("booking").split("T")[0],
-                transaction_date=entry.get("transactionDateTime") if entry.get("transactionDateTime") else "",
+                booking_date=entry.get("booking"),
+                transaction_date=entry.get("transactionDateTime") if entry.get("transactionDateTime") else entry.get("booking"),
                 partner_name=entry.get("partnerName") if entry.get("partnerName") else entry.get("bookingTypeTranslation"),
                 value=entry.get("amount").get("value"),
                 balance=entry.get("balance").get("value"),
@@ -102,9 +103,14 @@ def read_root() -> list[TransactionEntry]:
     return m.parsed_data
 
 
-@app.get("/items/{item_id}")
-def read_item(item_id: int, q: Union[str, None] = None):
-    return {"item_id": item_id, "q": q}
+@app.get("/balance")
+def read_item() -> list:
+    m = Money()
+    tmp_dict = {}
+    for pd in m.parsed_data[::-1]:
+        tmp_dict[pd.booking_date] = pd.balance
+    asd = [{"day": k, "value": v} for k, v in tmp_dict.items()]
+    return asd
 
 
 # if __name__ == "__main__":
