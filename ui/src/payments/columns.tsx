@@ -1,6 +1,7 @@
 "use client"
 
 import { ColumnDef } from "@tanstack/react-table"
+import moment from "moment"
 
 // This type is used to define the shape of our data.
 // You can use a Zod schema here if you want.
@@ -16,7 +17,7 @@ export type Payment = {
 
 export const columns: ColumnDef<Payment>[] = [
   {
-    accessorKey: "booking_date",
+    accessorFn: row => moment(row.booking_date).format('yyyy-MM-DD'),
     header: "Dátum",
   },
   {

@@ -15,7 +15,7 @@ export default function Transactions() {
     console.log(abc);
 
     return (
-        <div className="flex pt-20 items-center justify-center">
+        <div className="flex items-center justify-center pb-5">
             <DataTable columns={columns} data={abc} />
         </div>
     )

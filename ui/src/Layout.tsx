@@ -9,7 +9,7 @@ import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu"
 const Layout = () => {
     return (
         <>
-            <div className="fixed flex w-full px-2 py-5 items-center justify-center">
+            <div className="flex w-full pt-5 pb-10 items-center justify-center">
                 <NavigationMenu>
                     <NavigationMenuList>
                         <NavigationMenuLink className={navigationMenuTriggerStyle()} asChild>

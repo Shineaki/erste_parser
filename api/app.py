@@ -44,12 +44,12 @@ class Money:
         # self.save_tags()
 
     def parse_tags(self):
-        with open("tags2.json", "r", encoding="utf-8") as json_file:
+        with open("api/tags2.json", "r", encoding="utf-8") as json_file:
             data = json.load(json_file)
         return data
 
     def save_tags(self):
-        with open("tags2.json", "w", encoding="utf-8") as json_file:
+        with open("api/tags2.json", "w", encoding="utf-8") as json_file:
             what_to_dump = {
                 "partner_to_tag": self.tags,
                 "tags_to_partners": self.tags_list,
@@ -57,7 +57,7 @@ class Money:
             json.dump(what_to_dump, json_file, ensure_ascii=False)
 
     def parse_json(self, f_name: str) -> list[TransactionEntry]:
-        with open("data/" + f_name + ".json", "r", encoding="utf-8") as json_file:
+        with open("api/data/" + f_name + ".json", "r", encoding="utf-8") as json_file:
             data = json.load(json_file)
 
         parsed_data = []

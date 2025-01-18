@@ -28,8 +28,9 @@ export function Balance() {
     }, [])
 
     return (
+        <div className="flex flex-col items-center">
 
-        <ChartContainer config={chartConfig} className="w-screen max-h-screen pt-20 px-5">
+        <ChartContainer config={chartConfig} className="w-[80%] h-[500px]">
             <LineChart
                 accessibilityLayer
                 data={chartData}
@@ -69,5 +70,6 @@ export function Balance() {
                 />
             </LineChart>
         </ChartContainer>
+        </div>
     )
 }
